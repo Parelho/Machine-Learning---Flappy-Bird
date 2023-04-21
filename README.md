@@ -1,4 +1,5 @@
 # Machine-Learning---Flappy-Bird
 
-Game works by itself, just make sure to create a folder with config-feedforward.txt and game.py inside, and a folder with all the images found in imgs.
-Make sure to name all the files except game.py the same as it is in here, otherwise you'll have to change the path in the code.
+Game works without any input, just run the code.
+
+Make sure that all the files have the same name, otherwise you will have to change the path in the code. And that they are orgnized in the same way as it is in the repository
