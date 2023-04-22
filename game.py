@@ -286,7 +286,7 @@ def run():
     stats = neat.StatisticsReporter()
     p.add_reporter(stats)
 
-    #Makes up to 50 generations, if the neural network doesn't learn by then, it's easier to scrap and restart
+    #Makes up to 50 generations. If the neural network doesn't learn by then, it's easier to scrap and restart to avoid bad mutations
     winner = p.run(main, 50)
 
 #Finds the neat config values in the .txt file
